@@ -1,2 +1,9 @@
 # Linux-Log-Manager
-Linux sistemlerde kendi logları dışında bulunan loglar
+
+
+# Local Log Manager 
+```
+/var/log/
+
+
+```
