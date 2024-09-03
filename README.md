@@ -1,9 +1,15 @@
 # Linux Log Yönetimi
 
+``
+rsyslog
+``
+
+# Yerel log kaynakları
+
 ```
-└─$ Yerel log kaynakları
-    /var/log/apache2/access.log
-    /var/log/auth.log 
+└─$ /var/log/apache2/access.log
+    /var/log/auth.log
+    /var/log/audit/audit.log 
 └─$ audit
     sudo apt install auditd
     sudo systemctl start auditd.service
@@ -20,5 +26,6 @@
 
 ```
 └─$ Firewall (Gufw)
-└─$
+└─$ Elasticsearch
+└─$ 
 ```
