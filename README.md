@@ -1,7 +1,8 @@
 # Linux-Log-Manager
 
 ```
-/var/log/
+/var/log/apache2/access.log
+/var/log
 
 
 ```
