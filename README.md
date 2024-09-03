@@ -38,5 +38,7 @@
 ```
 └─$ Firewall (Gufw)
 └─$ Elasticsearch
-└─$ 
+└─$ Splunk
+└─$ Kibana
+ 
 ```
