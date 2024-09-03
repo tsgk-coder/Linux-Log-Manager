@@ -1,8 +1,9 @@
 # Linux Log Yönetimi
 
-``
-rsyslog
-``
+```
+└─$ rsyslog
+    sudo apt-get install rsyslog
+```
 
 # Yerel log kaynakları
 
