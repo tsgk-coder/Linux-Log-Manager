@@ -5,7 +5,10 @@
     sudo apt-get install rsyslog
 ```
 
-``Dosyayı Açın: sudo nano /etc/rsyslog.conf veya sudo nano /etc/rsyslog.d/remote.conf``
+``Dosyayı Açın: 
+    sudo nano /etc/rsyslog.conf 
+    sudo nano /etc/rsyslog.d/remote.conf
+``
 ``Kuralı Ekleyin: *.* @logserver.example.com:514 (UDP) veya *.* @@logserver.example.com:514 (TCP)``
 ``Kaydedip Kapatın: Dosyayı kaydedin ve çıkın.``
 ``Servisi Yeniden Başlatın: sudo systemctl restart rsyslog``
