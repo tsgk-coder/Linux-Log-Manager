@@ -9,12 +9,15 @@
 ```
 
 ``Kuralı Ekleyin:`` 
+
 ``*.* @logserver.example.com:514 (UDP)`` 
+
 ``*.* @@logserver.example.com:514 (TCP)``
 
 ``Kaydedip Kapatın: Dosyayı kaydedin ve çıkın.``
 
 ``Servisi Yeniden Başlatın:`` 
+
 ``sudo systemctl restart rsyslog``
 
 
