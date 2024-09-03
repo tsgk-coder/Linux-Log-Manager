@@ -1,10 +1,13 @@
-# Linux-Log-Manager
+# Linux Log Yönetimi
 
 ```
-/var/log/apache2/access.log
-/var/log
+└─$ Yerel log kaynakları
+└─$ audit
 ```
 
+# Linux Güvenlik Ürünleri
+
 ```
-audit
+└─$ Firewall (Gufw)
+└─$
 ```
