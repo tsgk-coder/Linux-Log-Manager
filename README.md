@@ -27,7 +27,20 @@
     sudo systemctl enable auditd.service
     sudo nano /etc/audit/auditd.conf    
     sudo nano /etc/audit/audit.rules
+
+└─$ sudo apt-get install auditd audispd-plugins       
+
+└─$ sudo auditctl -a always,exit -F arch=b64 -S execve
+sudo auditctl -a always,exit -F arch=b32 -S execve
+
+
+
+    └─# nano /etc/audit/rules.d/execve.rules          
+        -a always,exit -F arch=b64 -S execve
+        -a always,exit -F arch=b32 -S execve
+
     sudo systemctl restart auditd.service
+
     sudo ausearch -m AVC                 
     sudo chmod +x /etc/audit/audit.log    
     sudo tail -f /etc/audit/audit.log
