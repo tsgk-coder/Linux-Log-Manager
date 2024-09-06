@@ -50,7 +50,8 @@ sudo auditctl -a always,exit -F arch=b32 -S execve
 
 ```
 └─$ Firewall (Gufw)
-└─$ Elasticsearch
+└─$ IDS (OSSİM)
+└─$ QRadar
 └─$ Splunk
 └─$ Kibana
  
