@@ -54,5 +54,7 @@ sudo auditctl -a always,exit -F arch=b32 -S execve
 └─$ QRadar
 └─$ Splunk
 └─$ Kibana
- 
+└─$ Suricata
+└─$ OSSEC
+└─$ iptables
 ```
